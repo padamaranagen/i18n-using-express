@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-programming-beginners",
+  "version": "1.0.0",
+  "description": "Angularjs Programming for beginners",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nagendramca4u@bitbucket.org/nagendramca4u/angularjs-programming.git"
+  },
+  "keywords": [
+    "angularjs",
+    "programming",
+    "beginners"
+  ],
+  "author": "Nagendra Padamara",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/nagendramca4u/angularjs-programming#readme",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}

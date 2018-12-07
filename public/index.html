@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>i18n</title>
+</head>
+
+<body ng-app="mainApp" ng-controller="myCtrl">
+  <header>
+    <h1>{{ 'NAME' | translate }}</h1>
+    <ul>
+      <li><a href="" ng-click="changeLanguage('en_US')">English</a></li>      
+      <li><a href="" ng-click="changeLanguage('zh_CN')">Chinese</li>
+    </ul>
+  </header> 
+  <p>{{ 'MESSAGE' | translate }}</p>
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/angular-translate/angular-translate.js"></script>
+  <!-- <script src="../bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script> -->
+  <script src="controller.js"></script>
+</body>
+</html>

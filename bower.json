@@ -1,0 +1,21 @@
+{
+  "name": "angularjs-programming-beginners",
+  "description": "Angularjs programming for beginners",
+  "appPath": "public/",
+  "authors": [
+    "Nagendra Padamara"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularjs",
+    "programming",
+    "beginners"
+  ],
+  "devDependencies": {
+    "angular": "1.3.9"
+  },
+  "dependencies": {
+    "angular-translate": "^2.18.1",
+    "angular-translate-loader-static-files": "^2.18.1"
+  }
+}
